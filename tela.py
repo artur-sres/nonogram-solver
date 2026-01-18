@@ -26,9 +26,9 @@ def tela_nonogram(matriz_resolvida, titulo):
             y1 = r * TAMANHO_CELULA
             x2 = x1 + TAMANHO_CELULA
             y2 = y1 + TAMANHO_CELULA
-            
-            cor = "white" if valor == 1 else "black"
-            
+
+            cor = "black" if valor == 1 else "white"
+
             canvas.create_rectangle(x1, y1, x2, y2, fill=cor, outline="gray")
 
     janela.mainloop()
