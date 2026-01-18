@@ -1,5 +1,6 @@
 from nonogram_solver import add_clausulas, get_id
 from testes import SETTINGS
+import tela
 
 
 # Descomente o teste que deseja executar
@@ -20,18 +21,23 @@ solver = add_clausulas(num_linhas, num_colunas, regras_linhas, regras_colunas)
 
 if solver.solve():
     modelo = solver.get_model()
-
-    grid = []
+    
+    solucao = []
     for r in range(num_linhas):
-        linha_visual = ""
+        linha_atual = [] 
+        
         for c in range(num_colunas):
-            cell_id = get_id(r, c, num_colunas)
-
+            cell_id = get_id(r, c, num_colunas) 
+            
             if cell_id in modelo:
-                linha_visual += "■ "
+                linha_atual.append(1) 
             else:
-                linha_visual += ". "
+                linha_atual.append(0) 
+                
+        solucao.append(linha_atual)
+        
+    tela.tela_nonogram(solucao, nome_do_desenho)
 
-        print(linha_visual)
 else:
     print("Sem solução possível")
+    

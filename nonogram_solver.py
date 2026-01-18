@@ -1,7 +1,6 @@
 from itertools import combinations
 from pysat.solvers import Glucose4
 
-
 def gerar_possibilidades(tamanho, regras):
     """
     Gera todas as combinações possíveis de preenchimento para uma linha ou coluna
