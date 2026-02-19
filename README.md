@@ -5,7 +5,7 @@
 ![Lógica Para Computação](https://img.shields.io/badge/Lógica%20Para%20Computação-darkblue)
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
-## Sobre o Trabalho
+## Sobre
 
 O Solver foi desenvolvido como trabalho de conclusão para a disciplina de **Lógica para Computação**, , ministrada pelo Prof. Dr. Alexandre Matos Arruda, na Universidade Federal do Ceará (UFC).
 
@@ -39,8 +39,6 @@ O objetivo é demonstrar a aplicação de redução de problemas para SAT. O pro
 É necessário ter o Python instalado e a biblioteca python-sat. Você pode instalá-la via pip:
   ```pip install python-sat```
   
-
-## Rodando o Solver
 - Clone este repositório.
 
 - Abra o arquivo main.py.
@@ -50,7 +48,7 @@ O objetivo é demonstrar a aplicação de redução de problemas para SAT. O pro
 - Execute o arquivo:
   ```python main.py```
 
-## Regras e Desenho
+## Exemplo de Regras e Resultado
 
 ![regras](assets/regras-golfinho.png)
 ![desenho](assets/desenho_golfinho.png)
