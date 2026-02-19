@@ -1,4 +1,4 @@
-# Solver-Nonogram
+# Nonogram-Solver
 
 ![Python](https://img.shields.io/badge/Python-blue?logo=Python&logoColor=white)
 ![UFC](https://img.shields.io/badge/Universidade%20Federal%20do%20Cear%C3%A1-blue)
