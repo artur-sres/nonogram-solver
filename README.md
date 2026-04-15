@@ -53,6 +53,4 @@ O objetivo é demonstrar a aplicação de redução de problemas para SAT. O pro
 ![regras](assets/regras-golfinho.png)
 ![desenho](assets/desenho_golfinho.png)
 
-## Autor
 
-Feito por **[Artur Saraiva Rabelo](https://github.com/artur-sres)**.
