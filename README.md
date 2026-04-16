@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-blue?logo=Python&logoColor=white)
 ![UFC](https://img.shields.io/badge/Universidade%20Federal%20do%20Cear%C3%A1-blue)
 ![Lógica Para Computação](https://img.shields.io/badge/Lógica%20Para%20Computação-darkblue)
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
 ## Sobre
 
