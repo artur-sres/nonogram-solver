@@ -1,11 +1,5 @@
 # Nonogram-Solver
 
-![Python](https://img.shields.io/badge/Python-blue?logo=Python&logoColor=white)
-![UFC](https://img.shields.io/badge/Universidade%20Federal%20do%20Cear%C3%A1-blue)
-![Lógica Para Computação](https://img.shields.io/badge/Lógica%20Para%20Computação-darkblue)
-
-## Sobre
-
 O Solver foi desenvolvido como trabalho de conclusão para a disciplina de **Lógica para Computação**, , ministrada pelo Prof. Dr. Alexandre Matos Arruda, na Universidade Federal do Ceará (UFC).
 
 O objetivo é demonstrar a aplicação de redução de problemas para SAT. O programa recebe as regras numéricas das linhas e colunas de um nonogram, gera as cláusulas lógicas correspondentes em FNC (Forma Normal Conjuntiva) e utiliza um SAT Solver para deduzir quais células devem ser pintadas.
